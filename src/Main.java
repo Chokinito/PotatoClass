@@ -1,3 +1,4 @@
+//paso por referencia
 public class Main {
     public static void main(String[] args) {
         Potato miPotato = new Potato();
@@ -8,10 +9,8 @@ public class Main {
     }
 }
         class Potato{
-
             public int brazos = 0;
             public void quitarbrazos(){
-
-                this.brazos--;
+            this.brazos--;
             }
         }
